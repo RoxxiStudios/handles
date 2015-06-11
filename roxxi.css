@@ -1,0 +1,68 @@
+/* ====================Style sheet for the Roxxi Tag================= */
+#roxxi {
+	position: fixed;
+	display: inline-block;
+	z-index: 100000;
+	opacity: .5;
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	font-family: helvetica, sans-serif;
+	background: url(roxxistudios-logo-gray.png) no-repeat;
+	background-position: 8px;
+	background-size: 24px;
+	transition: 100ms 300ms ease-in;
+	-moz-transition: 100ms 300ms ease-in;
+	-webkit-transition: 100ms 300ms ease-in;
+}
+
+#roxxi:hover {
+	width:140px;
+	opacity: 1;
+	cursor: right;
+	background: url(roxxistudios-logo-red.png) no-repeat;
+	background-position: 5px;
+	background-size: 30px;
+	background-color: #fff;
+	transition: 150ms;
+	-moz-transition: 150ms;
+	-webkit-transition: 150ms;
+}
+
+#design a {
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	padding: 8px 0;
+	margin-left: 40px;
+	background: black;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1.1em;
+	letter-spacing: 1;
+	white-space: nowrap;
+	text-align: center;
+	transition: 100ms linear;
+	-moz-transition: 100ms linear;
+	-webkit-transition: 100ms linear;
+}
+
+#design a:hover {
+	background: red;
+}
+/*---------For mobile and phones---------*/
+.roxxi_hover {
+	width:140px !important;
+	opacity: 1 !important;
+	cursor: right !important;
+	background: url(roxxistudios-logo-red.png) no-repeat !important;
+	background-position: 5px !important;
+	background-size: 30px !important;
+	background-color: #fff !important;
+	transition: 150ms !important;
+	-moz-transition: 150ms !important;
+	-webkit-transition: 150ms !important;
+}
