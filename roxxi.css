@@ -10,7 +10,7 @@
 	height: 40px;
 	overflow: hidden;
 	font-family: helvetica, sans-serif;
-	background: url(roxxistudios-logo-gray.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/RoxxiStudios/handles/master/roxxistudios-logo-gray.png) no-repeat;
 	background-position: 8px;
 	background-size: 24px;
 	transition: 100ms 300ms ease-in;
@@ -22,7 +22,7 @@
 	width:140px;
 	opacity: 1;
 	cursor: right;
-	background: url(roxxistudios-logo-red.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/RoxxiStudios/handles/master/roxxistudios-logo-red.png) no-repeat;
 	background-position: 5px;
 	background-size: 30px;
 	background-color: #fff;
@@ -58,7 +58,7 @@
 	width:140px !important;
 	opacity: 1 !important;
 	cursor: right !important;
-	background: url(roxxistudios-logo-red.png) no-repeat !important;
+	background: url(https://raw.githubusercontent.com/RoxxiStudios/handles/master/roxxistudios-logo-red.png) no-repeat !important;
 	background-position: 5px !important;
 	background-size: 30px !important;
 	background-color: #fff !important;
