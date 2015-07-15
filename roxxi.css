@@ -53,6 +53,12 @@
 #design a:hover {
 	background: red;
 }
+
+body:after {
+	display: none;
+    content: url("https://raw.githubusercontent.com/RoxxiStudios/handles/master/roxxistudios-logo-red.png")
+}
+
 /*---------For mobile and phones---------*/
 .roxxi_hover {
 	width:140px !important;
